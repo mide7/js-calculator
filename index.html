@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="layout">
+        <div>
+            <h1>
+                JavaScript Calculator
+            </h1>
+        </div>
+        <table border="2">
+            <tr>
+                <td><button onclick="cancel()" class="cancel">c</button> </td>
+                <td colspan="3"><input type="text" id="screen" disabled /></td>
+                <!-- clr() function will call clr to clear all value -->
+            </tr>
+            <tr>
+                <!-- creating buttons and assigning values-->
+                <td><button onclick="display('+')" class='display'>+</button> </td>
+                <td><button onclick="display('1')" class='display'>1</button> </td>
+                <td><button onclick="display('2')" class='display'>2</button> </td>
+                <td><button onclick="display('3')" class='display'>3</button> </td>
+            </tr>
+            <tr>
+                <td><button onclick="display('-')" class='display'>-</button> </td>
+                <td><button onclick="display('4')" class='display'>4</button> </td>
+                <td><button onclick="display('5')" class='display'>5</button> </td>
+                <td><button onclick="display('6')" class='display'>6</button> </td>
+            </tr>
+            <tr>
+                <td><button onclick="display('*')" class='display'>*</button> </td>
+                <td><button onclick="display('7')" class='display'>7</button> </td>
+                <td><button onclick="display('8')" class='display'>8</button> </td>
+                <td><button onclick="display('9')" class='display'>9</button> </td>
+            </tr>
+            <tr>
+                <td><button onclick="display('/')" class='display'>/</button> </td>
+                <td><button onclick="display('.')" class='display'>.</button> </td>
+                <td><button onclick="display('0')" class='display'>0</button> </td>
+                <!-- Evaluating function call eval()-->
+                <td><button onclick="calculate()" class="eval">=</button> </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+}
+div>h1{
+    text-align: center;
+}
+table{
+    height: 20rem;
+}
+button{
+   border: none;
+   width: 100%;
+   height: 100%;
+}
+button:focus{
+    outline: none;
+}
+input{
+    width: 98%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.cancel{
+    background-color: red;
+}
+.cancel:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.display{
+    background-color: rgb(0, 217, 255);
+}
+.display:hover{
+    background-color: rgb(1, 177, 208);
+}
+.eval{
+    background-color: white;
+}
+.eval:hover{
+    background-color: whitesmoke;
+}
